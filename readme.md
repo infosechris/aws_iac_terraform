@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-### AWS with Terraform
+## AWS with Terraform
 
 #### IAM
    Create users, groups, policies: admin and mfa enforcement, etc
