@@ -1,5 +1,6 @@
 variable "aws_region" {
   type    = string
+  description = "AWS Region"
   default = "us-east-1"
 }
 
@@ -11,7 +12,7 @@ variable "instance_type" {
 
 variable "ami_tag_value" {
   type        = string
-  description = "Image tag name"
+  description = "Image tag value"
   default     = "amzn2-ami-hvm*"
 }
 
@@ -45,16 +46,16 @@ variable "root_volume_size" {
   default     = "8"
 }
 
-variable "data_volume_size" {
-  type        = number
-  description = "Data volume size of the EC2 Instance"
-  default     = "20"
-}
-
 variable "root_volume_type" {
   type        = string
   description = "Root volume type of the EC2 Instance"
   default     = "gp2"
+}
+
+variable "data_volume_size" {
+  type        = number
+  description = "Data volume size of the EC2 Instance"
+  default     = "20"
 }
 
 variable "data_volume_type" {
