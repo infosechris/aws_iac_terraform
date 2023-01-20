@@ -1,25 +1,22 @@
 <!-- ABOUT THE PROJECT -->
 ## Deploy AWS Resources using Terraform - IaC Demonstration
 
-### IAM
-   Create users, groups, policies: admin and mfa enforcement, etc
+### IAM (Identity)
+- Create users, groups, policies: admin and mfa enforcement, etc
 
-### Network
-   Deploy VPC, Subnets, Route Tables, Security Groups, etc.
+### VPC (Network)
+- Deploy VPC, Subnets, Route Tables, Security Groups, etc.
 
-### Server
-   Create Key pairs and Deploy linux ec2 server with root/ebs devices, security groups, 
+### EC2 (Servers)
+- Create Key pairs and Deploy linux ec2 server with root/ebs devices, security groups, 
 
-### Installation
-
+<!-- USAGE EXAMPLES -->
+## Usage
 1. Set up Free Tier AWS Account
 2. Configure AWS profile
 2. Install Terraform
 3. Clone Repo
 4. Init - Plan - Apply!
-
-<!-- USAGE EXAMPLES -->
-## Usage
 
 You can use it as a standalone but also use it as a module like this:
 
