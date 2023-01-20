@@ -1,13 +1,13 @@
 <!-- ABOUT THE PROJECT -->
-## AWS with Terraform
+## Deploy AWS Resources using Terraform - IaC Demonstration
 
-#### IAM
+### IAM
    Create users, groups, policies: admin and mfa enforcement, etc
 
-#### Network
+### Network
    Deploy VPC, Subnets, Route Tables, Security Groups, etc.
 
-#### Server
+### Server
    Create Key pairs and Deploy linux ec2 server with root/ebs devices, security groups, 
 
 ### Installation
