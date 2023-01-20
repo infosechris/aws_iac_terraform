@@ -2,13 +2,13 @@
 ## Deploy AWS Resources using Terraform - IaC Demonstration
 
 ### IAM (Identity)
-- Create users, groups, policies: admin and mfa enforcement, etc
+- Create users, groups, policies: admin and mfa enforcement, etc.
 
 ### VPC (Network)
-- Deploy VPC, Subnets, Route Tables, Security Groups, etc.
+- Deploy VPC, subnets, route tables, security groups, etc.
 
 ### EC2 (Servers)
-- Create Key pairs and Deploy linux ec2 server with root/ebs devices, security groups, 
+- Create Key pairs and Deploy linux ec2 server with root/ebs devices, security groups, etc.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
